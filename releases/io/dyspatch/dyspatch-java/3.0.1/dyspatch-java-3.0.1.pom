@@ -6,8 +6,8 @@
     <packaging>jar</packaging>
     <name>dyspatch-java</name>
     <version>3.0.1</version>
-    <url>https://github.com/swagger-api/swagger-codegen</url>
-    <description>Swagger Java</description>
+    <url>https://github.com/getdyspatch/dyspatch-java/</url>
+    <description>dyspatch-java</description>
     <scm>
         <connection>scm:git:git@github.com:getdyspatch/dyspatch-java.git</connection>
         <developerConnection>scm:git:git@github.com:getdyspatch/dyspatch-java.git</developerConnection>
