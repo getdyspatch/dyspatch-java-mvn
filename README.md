@@ -8,9 +8,11 @@ Update instructions:
 2. Make your changes in the dyspatch-java repo, and merge into master.
 3. Build the project and update your local copy of dyspatch-java-mvn.  From the root of your dyspatch-java project, run:
 
-    `mvn -DaltDeploymentRepository=snapshot-repo::default::file:FIXME/PATH/TO/dyspatch-java-mvn/releases clean deploy`
+    `DYSPATCH_API_KEY=<api key for qa env> mvn -DaltDeploymentRepository=snapshot-repo::default::file:FIXME/PATH/TO/dyspatch-java-mvn/releases clean deploy`
     
     Be sure to update the `file:FIXME/PATH/TO/dyspatch-java-mvn...` part of the command!
+    
+    As of Jan 20, 2020 there is currently a bug with the generated code and the javadoc mvn plugin, add the following to the above command `-Dmaven.javadoc.skip=true`
 
 4. Push all of the changes in the dyspatch-java-mvn project to github.
 
